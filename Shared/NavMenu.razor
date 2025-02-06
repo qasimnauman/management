@@ -1,30 +1,37 @@
 ﻿<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">BlazorApp1</a>
+        <a class="navbar-brand text-black fw-bold" href="">Admin</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
 </div>
 
+
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
+            <NavLink class="nav-link  mt-3" href="/login">
+                <i class="oi oi-home me-2"></i> Access Management
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link " href="user">
+                <i class="oi oi-people me-2"></i> Users
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            <NavLink class="nav-link " href="teams">
+                <i class="oi oi-people me-2"></i> Teams
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link " href="taskmanagement">
+                <i class="oi oi-task me-2"></i> Task Management
             </NavLink>
         </div>
     </nav>
+
 </div>
 
 @code {
@@ -37,3 +44,52 @@
         collapseNavMenu = !collapseNavMenu;
     }
 }
+<style>
+    .nav-link {
+        display: flex;
+        align-items: center;
+        padding: 0.75rem;
+        border-radius: 8px;
+        color: #000;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .active-tab {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .primary-tab {
+        background-color: #007bff;
+        color: #fff;
+        margin-top: 0.5rem;
+    }
+
+    .secondary-tab {
+        background-color: #e3f2fd; /* Light blue background */
+        color: #007bff; /* Blue text */
+        margin-top: 0.5rem;
+    }
+
+    .task-tab {
+        color: #6c757d; /* Gray text */
+        background-color: transparent;
+        margin-top: 0.5rem;
+    }
+
+    .secondary-tab:hover {
+        background-color: #d1ecf1; /* Slightly darker blue for hover */
+        color: #0056b3; /* Darker blue text on hover */
+    }
+
+    .task-tab:hover {
+        background-color: #f1f1f1; /* Light gray background */
+        color: #000; /* Black text on hover */
+    }
+
+    .nav-link i {
+        margin-right: 0.5rem;
+    }
+</style>

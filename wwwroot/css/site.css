@@ -2,6 +2,7 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
 }
 
 h1:focus {
@@ -66,3 +67,194 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+@media (max-width: 1024px) {
+    .user-management-container {
+        padding: 16px;
+    }
+
+    .table-section {
+        padding: 16px;
+    }
+
+    .user-table th,
+    .user-table td {
+        padding: 12px 8px;
+    }
+
+    .modify-buttons {
+        gap: 4px;
+    }
+
+    .icon-button {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .create-user-btn {
+        align-self: stretch;
+        justify-content: center;
+    }
+
+    .table-responsive-wrapper {
+        overflow-x: auto;
+        margin: 0 -16px;
+        padding: 0 16px;
+    }
+
+    .user-table {
+        min-width: 640px; /* Minimum width to prevent squishing */
+    }
+
+    .save-section {
+        margin-top: 16px;
+    }
+
+    .save-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .user-management-container {
+        padding: 12px;
+    }
+
+    .table-section {
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .create-user-btn {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+
+    .user-table th {
+        font-size: 13px;
+    }
+
+    .user-table td {
+        font-size: 13px;
+    }
+
+    .select-wrapper select {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+
+    .icon-button {
+        width: 24px;
+        height: 24px;
+    }
+
+    .save-button {
+        padding: 6px 16px;
+        font-size: 13px;
+    }
+}
+
+
+
+/*Teams Section*/
+
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .team-management-container {
+        padding: 16px;
+    }
+
+    .table-section {
+        padding: 16px;
+    }
+
+    .team-table th,
+    .team-table td {
+        padding: 12px 8px;
+    }
+
+    .modify-buttons {
+        gap: 4px;
+    }
+
+    .icon-button {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-section {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .create-team-btn {
+        align-self: stretch;
+        justify-content: center;
+    }
+
+    .team-table {
+        min-width: 640px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-management-container {
+        padding: 12px;
+    }
+
+    .table-section {
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .create-team-btn {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+
+    .team-table th {
+        font-size: 13px;
+    }
+
+    .team-table td {
+        font-size: 13px;
+    }
+
+    .icon-button {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+
+
+
+@media (min-width: 641px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .nav-scrollable {
+        display: block !important;
+    }
+}

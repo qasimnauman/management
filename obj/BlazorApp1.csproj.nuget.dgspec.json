@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\BlazorApp1.csproj",
-        "packagesPath": "C:\\Users\\rehan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rehan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

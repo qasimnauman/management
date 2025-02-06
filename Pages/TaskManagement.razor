@@ -2,93 +2,146 @@
 @using System.Collections.Generic
 
 @* Task Management Page *@
-<div class="container mt-4">
-    <h3>Task Management</h3>
+<div class="task-management p-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 class="m-0">Task Management</h4>
 
-    <div class="d-flex justify-content-between align-items-center mb-3">
-        <input type="text" class="form-control w-25" placeholder="Search By Team" aria-label="Search By Team">
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                Search By
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">Search By Task Status</a></li>
-                <li><a class="dropdown-item" href="#">Search By Assignee</a></li>
-            </ul>
+        <div class="search-container d-flex gap-3">
+            
+            <div class="dropdown">
+                <button class="btn btn-light text-start px-4 py-2" type="button">
+                    Search By Task Status
+                </button>
+            </div>
+           
         </div>
     </div>
 
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Task Title</th>
-                <th>Due Date</th>
-                <th>Completion Date</th>
-                <th>Assignee</th>
-                <th>Team Name</th>
-                <th>Team Lead</th>
-                <th>Status</th>
-                <th>View</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var task in Tasks)
-            {
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>@task.TaskTitle</td>
-                    <td>@task.DueDate.ToShortDateString()</td>
-                    <td>@task.CompletionDate.ToShortDateString()</td>
-                    <td>@task.Assignee</td>
-                    <td>@task.TeamName</td>
-                    <td>@task.TeamLead</td>
-                    <td>
-                        <span class="badge @GetStatusClass(task.Status)">@task.Status</span>
-                    </td>
-                    <td>
-                        <button class="btn btn-link">
-                            <i class="bi bi-eye"></i>
-                        </button>
-                    </td>
+                    <th>Task Title</th>
+                    <th>Due Date</th>
+                    <th>Completion Date</th>
+                    <th>Assignee</th>
+                    <th>Team Name</th>
+                    <th>Team Lead</th>
+                    <th>Status</th>
+                    <th></th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var task in Tasks)
+                {
+                    <tr>
+                        <td>@task.TaskTitle</td>
+                        <td>@task.DueDate</td>
+                        <td>@task.CompletionDate</td>
+                        <td>@task.Assignee</td>
+                        <td>@task.TeamName</td>
+                        <td>@task.TeamLead</td>
+                        <td>
+                            <span class="status-badge @task.Status.ToLower()">
+                                @task.Status
+                            </span>
+                        </td>
+                        <td>
+                            <button class="btn btn-link p-0">
+                                <i class="bi bi-eye text-primary"></i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
-
 @code {
     // Task Model
-    public class Task
+   
+
+    private List<TaskItem> Tasks = new()
+    {
+        new() { TaskTitle = "Website Development", DueDate = "23-1-25", CompletionDate = "24-6-25", Assignee = "Ali", TeamName = "Web Team", TeamLead = "Harish", Status = "Completed" },
+        new() { TaskTitle = "Design Deployment", DueDate = "24-1-25", CompletionDate = "22-2-25", Assignee = "Imran", TeamName = "Design Team", TeamLead = "Shahzeb", Status = "InProgress" },
+        new() { TaskTitle = "App Development", DueDate = "25-1-25", CompletionDate = "17-4-25", Assignee = "Ahmed", TeamName = "Development Team", TeamLead = "Hassim", Status = "ToDo" },
+        new() { TaskTitle = "App Screenshots", DueDate = "26-1-25", CompletionDate = "16-7-25", Assignee = "Talha", TeamName = "Design Team", TeamLead = "Amjad", Status = "Blocked" },
+        new() { TaskTitle = "App Optimization", DueDate = "27-1-25", CompletionDate = "10-8-25", Assignee = "Taimoor", TeamName = "Marketing Team", TeamLead = "Noorlain", Status = "Completed" },
+        new() { TaskTitle = "App Designing", DueDate = "28-1-25", CompletionDate = "29-4-25", Assignee = "Saqib", TeamName = "Design Team", TeamLead = "Shahzad", Status = "InProgress" }
+    };
+
+    public class TaskItem
     {
         public string TaskTitle { get; set; }
-        public DateTime DueDate { get; set; }
-        public DateTime CompletionDate { get; set; }
+        public string DueDate { get; set; }
+        public string CompletionDate { get; set; }
         public string Assignee { get; set; }
         public string TeamName { get; set; }
         public string TeamLead { get; set; }
         public string Status { get; set; }
     }
-
-    // Sample Data
-    private List<Task> Tasks = new List<Task>
-    {
-        new Task { TaskTitle = "Website Development", DueDate = new DateTime(2025, 1, 23), CompletionDate = new DateTime(2025, 6, 24), Assignee = "Ali", TeamName = "Web Team", TeamLead = "Harish", Status = "Completed" },
-        new Task { TaskTitle = "Design Deployment", DueDate = new DateTime(2025, 1, 24), CompletionDate = new DateTime(2025, 2, 22), Assignee = "Imran", TeamName = "Design Team", TeamLead = "Shahzeb", Status = "InProgress" },
-        new Task { TaskTitle = "App Development", DueDate = new DateTime(2025, 1, 25), CompletionDate = new DateTime(2025, 4, 17), Assignee = "Ahmed", TeamName = "Development Team", TeamLead = "Hassim", Status = "To-Do" },
-        new Task { TaskTitle = "App Screenshots", DueDate = new DateTime(2025, 1, 26), CompletionDate = new DateTime(2025, 7, 16), Assignee = "Talha", TeamName = "Design Team", TeamLead = "Amjad", Status = "Blocked" },
-        new Task { TaskTitle = "App Optimization", DueDate = new DateTime(2025, 1, 27), CompletionDate = new DateTime(2025, 8, 10), Assignee = "Taimoor", TeamName = "Marketing Team", TeamLead = "Noorlan", Status = "Completed" },
-        new Task { TaskTitle = "App Designing", DueDate = new DateTime(2025, 1, 28), CompletionDate = new DateTime(2025, 4, 29), Assignee = "Saqib", TeamName = "Design Team", TeamLead = "Shahzad", Status = "InProgress" }
-    };
-
-    // Get Bootstrap badge class based on status
-    private string GetStatusClass(string status)
-    {
-        return status switch
-        {
-            "Completed" => "bg-success",
-            "InProgress" => "bg-primary",
-            "To-Do" => "bg-warning text-dark",
-            "Blocked" => "bg-danger",
-            _ => "bg-secondary"
-        };
-    }
 }
+
+
+<style>
+    .task-management {
+        background-color: white;
+    }
+
+    .btn-light {
+        background-color: #f8f9fa;
+        border: 1px solid #e9ecef;
+        color: #495057;
+        min-width: 180px;
+        text-align: left;
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+        .table th {
+            border-bottom: 1px solid #e9ecef;
+            color: #6c757d;
+            font-weight: 500;
+            padding: 1rem;
+        }
+
+        .table td {
+            padding: 1rem;
+            vertical-align: middle;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+    .status-badge {
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .completed {
+        background-color: #e6fff0;
+        color: #00b341;
+    }
+
+    .inprogress {
+        background-color: #e6f4ff;
+        color: #0085ff;
+    }
+
+    .todo {
+        background-color: #fff6e6;
+        color: #ff9500;
+    }
+
+    .blocked {
+        background-color: #ffe6e6;
+        color: #ff0000;
+    }
+
+    .bi-eye {
+        font-size: 1.25rem;
+    }
+</style>

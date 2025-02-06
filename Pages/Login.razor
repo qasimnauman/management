@@ -2,36 +2,37 @@
 @layout LoginLayout
 @using System.ComponentModel.DataAnnotations
 
-
-
 <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
     <div class="login-container">
         <div class="login-card">
             <div class="login-left">
-                <img src="secure-login.svg" alt="Login Illustration" />
+                <img src="/images/loginillustration.png" alt="Login Illustration" />
             </div>
-            <div class="login-right">
-                <h2>Welcome back! 👋</h2>
-                <h3>Login to your account</h3>
+            <div class="form">
+                <div class="login-right">
+                    <h2 class="welcome">Welcome back! 👋</h2>
+                    <h3 class="login-text">Login to your account</h3>
 
-                <div class="form-group">
-                    <label>Email</label>
-                    <InputText @bind-Value="loginModel.Email" class="form-control" />
-                    <ValidationMessage For="@(() => loginModel.Email)" />
-                </div>
-
-                <div class="form-group">
-                    <label>Password</label>
-                    <div class="password-container">
-                        <InputText @bind-Value="loginModel.Password" class="form-control" type="@passwordType" />
-                        <button type="button" class="eye-button" @onclick="TogglePassword">
-                            <i class="@eyeIcon"></i>
-                        </button>
+                    <div class="form-group">
+                        <div class="email-container">
+                            <label for="email">Email</label>
+                            <InputText id="email" @bind-Value="loginModel.Email" class="form-control" placeholder="Please enter your email" />
+                            <ValidationMessage For="@(() => loginModel.Email)" />
+                        </div>
                     </div>
-                    <ValidationMessage For="@(() => loginModel.Password)" />
-                </div>
 
-                <button class="login-button" type="submit">Login</button>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="password-container">
+                            <InputText id="password" @bind-Value="loginModel.Password" class="form-control" type="@passwordType" placeholder="Enter password" />
+                            <button type="button" class="eye-button" @onclick="TogglePassword">
+                                <i class="@eyeIcon"></i>
+                            </button>
+                        </div>
+                        <ValidationMessage For="@(() => loginModel.Password)" />
+                    </div>
+                    <button class="login-button" type="submit">Login</button>
+                </div>
             </div>
         </div>
     </div>
@@ -74,24 +75,47 @@
     }
 }
 
+<script src="https://kit.fontawesome.com/e5e4409ee6.js" crossorigin="anonymous"></script>
 
 <style>
+    /* Import fonts and icons */
+    @@ import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+    /* @@ import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'); */
+
+    body {
+        font-family: 'Mulish', sans-serif;
+        background-color: #f8f8f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    .form {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
     .login-container {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-color: #f5f5f5;
+        padding: 20px;
     }
 
     .login-card {
         display: flex;
+        flex-direction: row;
         background: white;
-        border-radius: 10px;
+        border-radius: 12px;
         padding: 30px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        max-width: 800px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 900px;
         width: 100%;
+        align-items: center;
+        gap: 20px;
     }
 
     .login-left {
@@ -99,57 +123,211 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 20px;
     }
 
         .login-left img {
-            width: 80%;
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            object-fit: contain;
         }
 
     .login-right {
         flex: 1;
-        padding: 20px;
+        padding: 30px;
     }
 
-    h2, h3 {
-        margin: 0;
-        padding-bottom: 10px;
+    .welcome {
+        font-size: 20px;
+        color: #757575;
     }
 
-    .form-group {
-        margin-bottom: 15px;
+    .login-text {
+        font-size: 30px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-size: 0.95rem;
+        font-weight: 500;
+        color: #555;
+        margin-bottom: 5px;
+        display: block;
     }
 
     .form-control {
         width: 100%;
-        padding: 10px;
+        padding: 12px;
+        font-size: 1rem;
         border: 1px solid #ccc;
-        border-radius: 5px;
+        border-radius: 6px;
+        margin-top: 5px;
+        background-color: #F8F8F8;
+        color: #333;
+    }
+
+    .email-container {
+        margin-bottom: 20px;
     }
 
     .password-container {
-        display: flex;
-        align-items: center;
+        position: relative;
     }
 
     .eye-button {
         background: none;
         border: none;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
         cursor: pointer;
-        margin-left: -30px;
+        color: #555;
     }
 
     .login-button {
+        margin-top: 20px;
         width: 100%;
-        padding: 10px;
-        background-color: #007bff;
+        padding: 12px;
+        font-size: 1rem;
+        font-weight: bold;
         color: white;
+        background-color: #007bff;
         border: none;
-        border-radius: 5px;
+        border-radius: 6px;
         cursor: pointer;
+        transition: background-color 0.3s;
     }
 
         .login-button:hover {
             background-color: #0056b3;
         }
 
+    /* Enhanced Responsive Styles */
+    @@media (max-width: 1024px) {
+        .login-card {
+            flex-direction: column;
+            align-items: center;
+            padding: clamp(20px, 4vw, 30px);
+            margin: 20px;
+        }
+
+        .login-left {
+            padding: clamp(10px, 2vw, 20px);
+        }
+
+            .login-left img {
+                max-width: clamp(200px, 50vw, 250px);
+            }
+
+        .login-right {
+            width: 100%;
+            padding: clamp(15px, 3vw, 30px);
+        }
+
+        .login-text {
+            font-size: clamp(24px, 5vw, 30px);
+        }
+
+        .welcome {
+            font-size: clamp(16px, 4vw, 20px);
+        }
+    }
+
+    @@media (max-width: 768px) {
+        .login-container {
+            padding: 15px;
+            min-height: 100vh;
+            height: auto;
+        }
+
+        .login-card {
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .form-control {
+            padding: clamp(8px, 2vw, 12px);
+            font-size: clamp(14px, 3vw, 16px);
+        }
+
+        .login-button {
+            padding: clamp(10px, 2vw, 12px);
+        }
+    }
+
+    @@ media (max-width: 480px) {
+        .login-container {
+            padding: 10px;
+        }
+
+        .login-card {
+            padding: 15px;
+            margin: 5px;
+            gap: 15px;
+        }
+
+        .login-left img {
+            max-width: 150px;
+        }
+
+        .login-right {
+            padding: 15px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-size: 14px;
+        }
+
+        .eye-button {
+            padding: 8px;
+        }
+    }
+
+    /* Form Validation Enhancement */
+    .validation-message {
+        color: #dc3545;
+        font-size: 0.875rem;
+        margin-top: 5px;
+    }
+
+    .form-control:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+    }
+
+    /* Touch Device Optimization */
+    @@ media (hover: none) {
+        .login-button {
+            padding: 14px;
+        }
+
+        .eye-button {
+            padding: 12px;
+        }
+    }
+
+    /* Print Styles */
+    @@ media print {
+        .login-container {
+            height: auto;
+        }
+
+        .login-card {
+            box-shadow: none;
+            border: 1px solid #ccc;
+        }
+
+        .login-button {
+            background: #333;
+        }
+    }
 </style>
