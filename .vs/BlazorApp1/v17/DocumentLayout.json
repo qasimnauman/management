@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\pages\\taskmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\taskmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:wwwroot\\css\\bootstrap\\bootstrap.min.css.map||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\shared\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:shared\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\blazorapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:blazorapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\rehan\\source\\repos\\blazorapp1\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskManagement.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\TaskManagement.razor",
+              "RelativeDocumentMoniker": "Pages\\TaskManagement.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\TaskManagement.razor",
+              "RelativeToolTip": "Pages\\TaskManagement.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T12:08:20.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bootstrap.min.css.map",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+              "RelativeDocumentMoniker": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+              "RelativeToolTip": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADgkAYAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-06T11:46:33.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "Pages\\FetchData.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\FetchData.razor",
+              "RelativeToolTip": "Pages\\FetchData.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T11:38:56.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Teams.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\Teams.razor",
+              "RelativeDocumentMoniker": "Pages\\Teams.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\Teams.razor",
+              "RelativeToolTip": "Pages\\Teams.razor",
+              "ViewState": "AgIAAEgAAAAAZWZmZmYkwDYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T11:38:45.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T11:12:18.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\Counter.razor",
+              "RelativeToolTip": "Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T11:12:18.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\Users.razor",
+              "RelativeDocumentMoniker": "Pages\\Users.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\Users.razor",
+              "RelativeToolTip": "Pages\\Users.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T11:05:00.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:49:27.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Pages\\Login.razor",
+              "RelativeToolTip": "Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:43:45.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginLayout.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Shared\\LoginLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\LoginLayout.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Shared\\LoginLayout.razor",
+              "RelativeToolTip": "Shared\\LoginLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:43:10.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T10:42:38.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "global.json",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\global.json",
+              "RelativeDocumentMoniker": "global.json",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\global.json",
+              "RelativeToolTip": "global.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T10:36:22.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlazorApp1",
+              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\BlazorApp1.csproj",
+              "RelativeDocumentMoniker": "BlazorApp1.csproj",
+              "ToolTip": "C:\\Users\\rehan\\source\\repos\\BlazorApp1\\BlazorApp1.csproj",
+              "RelativeToolTip": "BlazorApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-06T10:35:19.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

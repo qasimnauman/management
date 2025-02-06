@@ -1,0 +1,192 @@
+﻿@page "/teams"
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>All Teams</h2>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createTeamModal">+ Create Team</button>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Team Name</th>
+                    <th>Team Lead</th>
+                    <th>Team Members</th>
+                    <th>Modify</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var team in Teamss)
+                {
+                    <tr>
+                        <td>@team.Name</td>
+                        <td>@team.Lead</td>
+                        <td>@string.Join(", ", team.Members)</td>
+                        <td>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-sm btn-outline-primary" title="Edit" data-bs-toggle="modal" data-bs-target="#editTeamModal">
+                                    <i class="bi bi-pencil"></i>
+                                </button>
+                                <button class="btn btn-sm btn-outline-danger" title="Delete" data-bs-toggle="modal" data-bs-target="#deleteTeamModal">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Create Team Modal -->
+<div class="modal fade" id="createTeamModal" tabindex="-1" aria-labelledby="editTeamModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editTeamModalLabel">Create Team</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row g-3">
+                        <!-- Team Name -->
+                        <div class="col-md-6">
+                            <label for="teamName" class="form-label">Team Name</label>
+                            <input type="text" class="form-control" id="teamName" placeholder="Enter Team Name">
+                        </div>
+
+                        <!-- Team Lead -->
+                        <div class="col-md-6">
+                            <label for="teamLead" class="form-label">Team Lead</label>
+                            <select class="form-select" id="teamLead">
+                                @foreach (var lead in TeamLeads)
+                                {
+                                    <option value="@lead">@lead</option>
+                                }
+                            </select>
+                        </div>
+
+                        <!-- Team Members -->
+                        <div class="col-md-12">
+                            <label for="teamMembers" class="form-label">Team Member</label>
+                            <select class="form-select" id="teamMembers" multiple>
+                                @foreach (var member in TeamMembers)
+                                {
+                                    <option value="@member">@member</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Preview Section -->
+                <div class="mt-4 p-3 border rounded">
+                    <h6>Preview</h6>
+                    <p><strong>Team Name:</strong> <span id="previewTeamName"></span></p>
+                    <p><strong>Team Lead:</strong> <span id="previewTeamLead"></span></p>
+                    <p><strong>Team Members:</strong> <span id="previewTeamMembers"></span></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Edit Team Modal -->
+<div class="modal fade" id="editTeamModal" tabindex="-1" aria-labelledby="editTeamModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editTeamModalLabel">Edit Team</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row g-3">
+                        <!-- Team Name -->
+                        <div class="col-md-6">
+                            <label for="teamName" class="form-label">Team Name</label>
+                            <input type="text" class="form-control" id="teamName" placeholder="Enter Team Name">
+                        </div>
+
+                        <!-- Team Lead -->
+                        <div class="col-md-6">
+                            <label for="teamLead" class="form-label">Team Lead</label>
+                            <select class="form-select" id="teamLead">
+                                @foreach (var lead in TeamLeads)
+                                {
+                                    <option value="@lead">@lead</option>
+                                }
+                            </select>
+                        </div>
+
+                        <!-- Team Members -->
+                        <div class="col-md-12">
+                            <label for="teamMembers" class="form-label">Team Member</label>
+                            <select class="form-select" id="teamMembers" multiple>
+                                @foreach (var member in TeamMembers)
+                                {
+                                    <option value="@member">@member</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+                <!-- Preview Section -->
+                <div class="mt-4 p-3 border rounded">
+                    <h6>Preview</h6>
+                    <p><strong>Team Name:</strong> <span id="previewTeamName"></span></p>
+                    <p><strong>Team Lead:</strong> <span id="previewTeamLead"></span></p>
+                    <p><strong>Team Members:</strong> <span id="previewTeamMembers"></span></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="deleteTeamModal" tabindex="-1" aria-labelledby="deleteUserModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <img src="delete-icon.svg" alt="Delete Icon" style="width: 50px; height: 50px;" />
+                <h5 class="mt-3">Are You Sure You Want To Delete The Team?</h5>
+                <div class="mt-4 d-flex flex-column gap-3">
+                    <button type="button" class="btn btn-danger btn-lg px-5" data-bs-dismiss="modal">Yes, Delete</button>
+                    <button type="button" class="btn btn-secondary btn-lg px-5" data-bs-dismiss="modal">Keep Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Team> Teamss = new List<Team>
+    {
+        new Team { Name = "Website Development", Lead = "Harish", Members = new List<string> { "Jeffrey", "Ali" } },
+        new Team { Name = "Deployment Team", Lead = "Shahzeb", Members = new List<string> { "Claire", "Tyrone J" } },
+        new Team { Name = "App Development", Lead = "Amjad", Members = new List<string> { "O'Connor", "Ali" } }
+    };
+    private List<string> TeamMembers = new List<string>
+    {
+        "Jeffrey", "Ali", "Claire", "O'Connor", "Tyrone J", "Robertson"
+    };
+
+    private List<string> TeamLeads = new List<string>
+    {
+        "Harish", "Shahzeb", "Amjad"
+    };
+    public class Team
+    {
+        public string Name { get; set; }
+        public string Lead { get; set; }
+        public List<string> Members { get; set; }
+    }
+}
