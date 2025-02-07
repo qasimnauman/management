@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\",
+  "WorkspaceRootPath": "E:\\Projects\\Cyberoide\\management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\dell\\downloads\\blazorapp1\\blazorapp1\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|e:\\projects\\cyberoide\\management\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\dell\\downloads\\blazorapp1\\blazorapp1\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\dell\\downloads\\blazorapp1\\blazorapp1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\dell\\downloads\\blazorapp1\\blazorapp1\\pages\\taskmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\taskmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\dell\\downloads\\blazorapp1\\blazorapp1\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\dell\\downloads\\blazorapp1\\blazorapp1\\pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|e:\\projects\\cyberoide\\management\\pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\teams.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\dell\\downloads\\blazorapp1\\blazorapp1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|e:\\projects\\cyberoide\\management\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|c:\\users\\dell\\downloads\\blazorapp1\\blazorapp1\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|e:\\projects\\cyberoide\\management\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|e:\\projects\\cyberoide\\management\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|e:\\projects\\cyberoide\\management\\pages\\taskmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\taskmanagement.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|e:\\projects\\cyberoide\\management\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|e:\\projects\\cyberoide\\management\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5492B2AA-38AA-4DDE-9C77-D6E2D31675CC}|BlazorApp1.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,28 +42,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TaskManagement.razor",
-              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Pages\\TaskManagement.razor",
+              "DocumentMoniker": "E:\\Projects\\Cyberoide\\management\\Pages\\TaskManagement.razor",
               "RelativeDocumentMoniker": "Pages\\TaskManagement.razor",
-              "ToolTip": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Pages\\TaskManagement.razor",
+              "ToolTip": "E:\\Projects\\Cyberoide\\management\\Pages\\TaskManagement.razor",
               "RelativeToolTip": "Pages\\TaskManagement.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-06T19:41:25.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T19:41:25.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Teams.razor",
-              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Pages\\Teams.razor",
+              "DocumentMoniker": "E:\\Projects\\Cyberoide\\management\\Pages\\Teams.razor",
               "RelativeDocumentMoniker": "Pages\\Teams.razor",
-              "ToolTip": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Pages\\Teams.razor",
+              "ToolTip": "E:\\Projects\\Cyberoide\\management\\Pages\\Teams.razor",
               "RelativeToolTip": "Pages\\Teams.razor",
               "ViewState": "AgIAAG4BAAAAAAAAAAAmwLEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -72,78 +71,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Users.razor",
-              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Pages\\Users.razor",
+              "DocumentMoniker": "E:\\Projects\\Cyberoide\\management\\Pages\\Users.razor",
               "RelativeDocumentMoniker": "Pages\\Users.razor",
-              "ToolTip": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Pages\\Users.razor",
+              "ToolTip": "E:\\Projects\\Cyberoide\\management\\Pages\\Users.razor",
               "RelativeToolTip": "Pages\\Users.razor",
               "ViewState": "AgIAALYAAAAAAAAAAAAkwMkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-06T19:40:25.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T19:40:25.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Shared\\NavMenu.razor",
+              "DocumentMoniker": "E:\\Projects\\Cyberoide\\management\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Shared\\NavMenu.razor",
+              "ToolTip": "E:\\Projects\\Cyberoide\\management\\Shared\\NavMenu.razor",
               "RelativeToolTip": "Shared\\NavMenu.razor",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-06T19:38:25.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Shared\\MainLayout.razor",
+              "DocumentMoniker": "E:\\Projects\\Cyberoide\\management\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Shared\\MainLayout.razor*",
-              "RelativeToolTip": "Shared\\MainLayout.razor*",
+              "ToolTip": "E:\\Projects\\Cyberoide\\management\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-06T19:38:23.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\App.razor",
-              "RelativeDocumentMoniker": "App.razor",
-              "ToolTip": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\App.razor",
-              "RelativeToolTip": "App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-06T19:38:20.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAPAAAAAAAAAAAAAAAAUBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-02-06T19:32:30.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T19:38:23.347Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\Projects\\Cyberoide\\management\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "E:\\Projects\\Cyberoide\\management\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T19:38:20.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\Projects\\Cyberoide\\management\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "E:\\Projects\\Cyberoide\\management\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAAAAUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-06T19:32:30.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Pages\\Login.razor",
+              "DocumentMoniker": "E:\\Projects\\Cyberoide\\management\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "Pages\\Login.razor",
-              "ToolTip": "C:\\Users\\dell\\Downloads\\BlazorApp1\\BlazorApp1\\Pages\\Login.razor",
+              "ToolTip": "E:\\Projects\\Cyberoide\\management\\Pages\\Login.razor",
               "RelativeToolTip": "Pages\\Login.razor",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-06T19:31:10.959Z",
               "EditorCaption": ""
